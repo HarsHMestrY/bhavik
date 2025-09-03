@@ -1,0 +1,18 @@
+-- CREATE TABLE user (
+--     id INT AUTO_INCREMENT PRIMARY KEY,
+--     uname VARCHAR(50) NOT NULL UNIQUE,
+--     email VARCHAR(100) NOT NULL UNIQUE,
+--     pass VARCHAR(250) NOT NULL,
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
+
+
+-- CREATE TABLE blogs (
+--     id INT AUTO_INCREMENT PRIMARY KEY,
+--     title VARCHAR(100) NOT NULL,
+--     content VARCHAR(500) NOT NULL,
+--     image VARCHAR(150),
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+--     user_id INT NOT NULL,
+--     FOREIGN KEY (user_id) REFERENCES user(id) ON DELETE CASCADE
+-- );
